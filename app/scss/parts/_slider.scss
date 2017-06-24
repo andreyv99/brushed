@@ -9,7 +9,7 @@
 } 
     .slick-next:before{
         content: '';
-    background-image: url(assets/img/arrow-down.png);
+    background-image: url(../assets/img/arrow-down.png);
         width: 10px;
         height: 14px;
       background-repeat: no-repeat;
@@ -20,7 +20,7 @@
     }
     .slick-prev:before{
         content: '';
-    background-image: url(assets/img/arrow-down.png);
+    background-image: url(../assets/img/arrow-down.png);
         width: 10px;
         height: 14px;
       background-repeat: no-repeat;
