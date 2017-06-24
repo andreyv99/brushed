@@ -1,0 +1,121 @@
+.footer .gridContainer{
+    
+}
+.gridContainer .twitter{
+    background-color:  #26292e;
+    margin: 0 auto;
+    &__text{
+        font-family: 'Titillium Web';
+        color:  #7f8289;
+        font-size: 20px;
+        line-height: 22px;
+        font-weight: 400;
+        font-style: italic;
+        padding: 125px 0 75px 0;
+        
+        text-align: center;
+        .one{  
+        font-family: 'Titillium Web';
+        color:  #ffffff;
+        font-size: 20px;
+        line-height: 22px;
+        font-style: italic;
+        }
+        .two{
+            font-family: 'Titillium Web';
+            color:  #7f8289;
+            font-size: 16px;
+            line-height: 22px;
+            font-style: italic;
+
+        }
+    }
+    &__href{
+        display: block;
+        width: 16px;
+        margin: 0 auto;
+        padding-bottom: 40px;
+    }
+   
+}
+footer .href{
+    background-color:  #2f3238;
+    height: 255px;
+    padding: 100px 0;
+    .item{
+        display: flex;
+        
+        justify-content: center;
+        &__block{
+            width: 70px;
+            height: 70px;
+            background-color:  #26292e;
+            padding: 22px 0;
+            margin: 0 15px;
+            &:hover{
+                background-color:  #de5e60;
+            }
+        }
+        .sprite {
+            
+            background-image: url(../../assets/img/spritesheet2.png);
+            background-repeat: no-repeat;
+            display: block;
+            margin: auto;
+            
+            
+            
+}
+        .sprite-behance {
+    width: 32px;
+    height: 20px;
+    background-position: -5px -5px;
+}
+
+.sprite-dribbble {
+    width: 32px;
+    height: 32px;
+    background-position: -47px -5px;
+}
+
+.sprite-facebook {
+    width: 15px;
+    height: 32px;
+    background-position: -89px -5px;
+}
+
+.sprite-twitter {
+    width: 32px;
+    height: 28px;
+    background-position: -114px -5px;
+}
+
+.sprite-vimeo {
+    width: 32px;
+    height: 28px;
+    background-position: -156px -5px;
+}
+    }
+}
+
+.alessio{
+    background-color:  #26292e;
+    margin: 0 auto;
+    padding: 62px 0;
+    &__text{
+        font-family: 'Titillium Web';
+        color:  #fefefe;
+        font-size: 12px;
+        
+        text-align: center;
+        .one{
+            font-family: 'Titillium Web';
+            color:  #de5e60;
+            font-size: 12px;
+        }
+        two{
+            color:  #fefefe;
+        }
+        
+    }
+}

@@ -1,0 +1,142 @@
+.aboutUs{
+    background: #26292e;
+    .gridContainer{
+        padding: 100px 5vw;
+    }
+}
+.blog{
+    display: flex;
+    flex-direction: column;
+    
+} 
+.article{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    &__image{
+        width: 100%;
+        max-width: 100%;
+     }
+    &__name{
+        font-family: 'Titillium Web';
+        color:  #fefefe;
+        font-size: 24px;
+        font-weight: 400;
+        padding: 25px 0;
+    }
+    &__description{
+        font-family: 'Titillium Web';
+        color:  #7f8289;
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 400;
+        padding-bottom: 25px;
+        
+    }
+    &__href{
+        display: flex;
+        flex-direction: row;
+        width: 100px;
+        justify-content: space-around;
+    }
+    }
+    
+.sprite {
+    background-image: url(../../assets/img/spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-dribbble {
+    width: 16px;
+    height: 16px;
+    background-position: -5px -5px;
+}
+
+.sprite-linked-in {
+    width: 16px;
+    height: 16px;
+    background-position: -31px -5px;
+}
+
+.sprite-twitter {
+    width: 16px;
+    height: 14px;
+    background-position: -57px -5px;
+}
+
+.offer{
+    border-left: 3px solid #de5e60;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    &__name{
+        font-family: 'Titillium Web';
+        color:  #fefefe;
+        font-size: 24px;
+        font-weight: 600;
+        padding: 30px 0;
+        text-transform: uppercase;
+        span{
+            font-family: 'Titillium Web';
+            color:  #de5e60;
+            font-size: 24px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+    }
+    &__description{
+            font-family: 'Titillium Web';
+            color:  #7f8289;
+            font-size: 16px;
+            line-height: 22px;
+            padding-bottom: 30px;
+            
+        }
+    &__href{
+        margin: auto;
+        background-color:  #3c3f45;
+        width: 160px;
+        height: 49px;
+        font-family: 'Titillium Web';
+        color:  #ffffff;
+        font-size: 16px;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 12px 0;
+        &:hover{
+            background-color:  #de5e60;
+        }
+    }
+    }
+
+
+
+@media screen and (min-width: 768px) {
+    .aboutUs .gridContainer{
+        margin: 0 auto;
+    }
+.blog{
+    display: flex;
+    flex-direction: row;
+    
+}
+    .article{
+        width: calc((100% - 60px) / 3);
+        margin-right: 30px;
+        &:nth-of-type(3n){
+             margin-right: 0px;
+        }
+    }
+    .offer{
+        flex-direction: row;
+    }
+}
+@media screen and (min-width: 1170px){
+    .aboutUs .gridContainer{
+        width: 1170px;
+        padding: 100px 10px;
+        
+    }
+}
