@@ -20,7 +20,7 @@ body {
 
 .slider .slick-next:before {
   content: '';
-  background-image: url(../../assets/img/arrow-down.png);
+  background-image: url(assets/img/arrow-down.png);
   width: 10px;
   height: 14px;
   background-repeat: no-repeat;
@@ -30,7 +30,7 @@ body {
 
 .slider .slick-prev:before {
   content: '';
-  background-image: url(../../assets/img/arrow-down.png);
+  background-image: url(assets/img/arrow-down.png);
   width: 10px;
   height: 14px;
   background-repeat: no-repeat;
@@ -239,7 +239,7 @@ header {
     justify-content: space-around; }
 
 .sprite {
-  background-image: url(../../assets/img/spritesheet.png);
+  background-image: url(assets/img/spritesheet.png);
   background-repeat: no-repeat;
   display: block; }
 
@@ -439,7 +439,7 @@ footer .href {
       footer .href .item__block:hover {
         background-color: #de5e60; }
     footer .href .item .sprite {
-      background-image: url(../../assets/img/spritesheet2.png);
+      background-image: url(assets/img/spritesheet2.png);
       background-repeat: no-repeat;
       display: block;
       margin: auto; }
